@@ -1,12 +1,12 @@
 <?php
 /**
- * @version		$Id: fr-FR.localise.php
- * @copyright	Copyright (C) 2005 - 2010 Open Source Matters, Inc. All rights reserved.
+ * @version		$Id: language.php
+ * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
- defined('_JEXEC') or die;
- 
+defined('_JEXEC') or die;
+
 /**
  * pt-BR localise class
  *
@@ -74,3 +74,4 @@ abstract class pt_BRLocalise {
 		return 200;
 	}
 }
+

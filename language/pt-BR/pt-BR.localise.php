@@ -74,3 +74,4 @@ abstract class pt_BRLocalise {
 		return 200;
 	}
 }
+

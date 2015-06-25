@@ -1,1 +1,0 @@
-<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";s:133:"<option   value="10">Masculino</option><option   value="11"> - Camisetas</option><option   value="12"> -  - Times de Futebol</option>";}

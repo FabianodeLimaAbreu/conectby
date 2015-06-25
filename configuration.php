@@ -1,7 +1,9 @@
 <?php
 class JConfig {
 	public $offline = '0';
-	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
+	public $offline_message = 'Estamos em manutenção. Por favor, retorne mais tarde.
+
+';
 	public $sitename = 'ConectBy';
 	public $editor = 'tinymce';
 	public $list_limit = '20';
