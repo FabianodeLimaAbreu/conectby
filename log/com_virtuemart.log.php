@@ -8,3 +8,4 @@
 2015-06-25 22:42:53 ERROR vmError: prepareCartData virtuemart_product_id is empty
 2015-06-25 22:42:53 ERROR vmError: prepareCartData virtuemart_product_id is empty
 2015-06-25 22:42:53 ERROR vmError: prepareCartData virtuemart_product_id is empty
+2015-07-24 03:21:03 ERROR vmError: Aviso — o Caminho para a venda está <b>errado</b>, por razões de segurança é muito importante criar uma pasta em um caminho não é acessível por um URL, crie também uma pasta de faturas para armazenar seus dados sensíveis de forma segura. Nosso caminho sugerido é para o seu sistema C:\xampp\htdocs\vmfiles 

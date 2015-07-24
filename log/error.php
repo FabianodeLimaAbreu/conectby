@@ -20,3 +20,13 @@
 2015-06-22	03:14:01	INFO	::1	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
 2015-06-22	03:14:11	INFO	::1	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
 2015-07-18	01:01:33	INFO	::1	Joomla FAILURE: 	Não é permitido senha em branco
+2015-07-24	00:18:17	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:18:54	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:19:22	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:19:31	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:20:46	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:20:57	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:20:58	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:21:08	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:24:21	INFO	::1	Joomla FAILURE: 	Usuário não existe
+2015-07-24	00:24:31	INFO	::1	Joomla FAILURE: 	Usuário não existe
