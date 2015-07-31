@@ -67,6 +67,7 @@ $this->row = 0;
 					<div class="back-to-category">
 						<a href="<?php echo $catURL ?>" class="" title="<?php echo $categoryName ?>"><?php echo JText::sprintf('COM_VIRTUEMART_CATEGORY_BACK_TO',$categoryName) ?></a>
 					</div>
+
         
     <?php } // Product Navigation END ?>
 
@@ -154,6 +155,11 @@ $this->row = 0;
 					/** @todo Test if content plugins modify the product description */
 					echo nl2br($this->product->product_s_desc);
 					?>
+					<fb:like id="fb" href="http://www.yourdomain.com" layout="button_count"></fb:like>
+				    <script type="text/javascript">
+						var sUrl = window.location;
+						document.getElementById('fb').setAttribute('href', sUrl);
+					</script> 
 				</div>
 			<?php
 			} // Product Short Description END

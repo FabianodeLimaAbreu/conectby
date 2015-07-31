@@ -804,6 +804,20 @@ tbody th, tbody td, .search-results dt.result-title{
 	<?php endif; endif; ?>
 </head>
 <body>
+	<div id="fb-root"></div>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '1465531973742483', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
 <div id="top-sticky-panel">
 	<div class="container">
 		<?php if($this->params->get('logoLinked')) : ?>
