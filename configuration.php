@@ -36,7 +36,7 @@ class JConfig {
 	public $smtpauth = '1';
 	public $smtpuser = 'conectby@conectby.com.br';
 	public $smtppass = 'conectby123';
-	public $smtphost = 'conectby.com.br';
+	public $smtphost = 'localhost';
 	public $smtpsecure = 'ssl';
 	public $smtpport = '465';
 	public $caching = '0';

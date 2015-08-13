@@ -851,7 +851,7 @@ tbody th, tbody td, .search-results dt.result-title{
 			<?php jimport( 'joomla.application.module.helper' ); $module_login = JModuleHelper::getModules('loginform'); ?>
 			<li><a data-toggle="modal" href="#LoginForm" class="open-register-form"><?php echo $module_login[0]->title; ?></a></li>
 			<?php if(!JFactory::getUser()->id) : $usersConfig = JComponentHelper::getParams('com_users'); if ($usersConfig->get('allowUserRegistration')) : ?>
-			<li><a class="v_register" href="<?php echo JRoute::_('index.php?option=com_users&view=registration'); ?>"> <?php echo JText::_('Register'); ?> </a></li>
+			<li><a class="v_register" href="<?php echo JRoute::_('index.php?option=com_users&view=registration'); ?>"> <?php echo JText::_('Registrar'); ?> </a></li>
 			<?php endif; endif; ?>
 		</ul>
 		<?php endif; ?>
