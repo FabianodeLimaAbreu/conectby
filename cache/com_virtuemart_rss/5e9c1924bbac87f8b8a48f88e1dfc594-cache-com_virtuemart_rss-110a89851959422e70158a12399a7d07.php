@@ -1,4 +1,13 @@
-<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";a:5:{i:0;O:8:"stdClass":3:{s:4:"link";s:98:"http://virtuemart.net/news/latest-news/470-release-vm3-0-8-2-secured-by-fortinet-s-fortiguard-labs";s:5:"title";s:56:"Release VM3.0.9, secured by Fortinet’s FortiGuard Labs";s:11:"description";s:3499:"<div><p>As we mentioned in the last news, VirtueMart is audited by different security companies. We are very happy that they found the persistent XSS attack before we released vm3.0.8, so the version vm3.0.8 already contains the fix.</p>
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";a:5:{i:0;O:8:"stdClass":3:{s:4:"link";s:79:"http://virtuemart.net/news/latest-news/471-summer-promotion-for-amazon-payments";s:5:"title";s:36:"Summer promotion for Amazon Payments";s:11:"description";s:2045:"<div><p> <a href="https://payments.amazon.co.uk/contact?ld=SPDEAP_XIS_VM"><img src="http://virtuemart.net/images/virtuemart/news/amazon-christmas-promotion.png" alt="amazon christmas promotion" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 15px;" /></a><strong>You still have until the end of this week to secure your first Christmas present! </strong></p>
+<p>Amazon Payments have launched their summer promotion, offering merchants their first Christmas present in August.</p>
+<p>Merchants that register an account by 15 August and make the payment solution commercially available on their websites by 30 September do not pay any processing fees during December 2015. <a href="http://go.amazonservices.com/XmasSummerUK.html?ld=SPDEAP_XIS_VM" title="Amazon Christmas promotion">More information on the program is  available.</a></p>
+<p>Amazon Payments offer payment solutions that enable millions of customers to login to your website and pay with the details stored in their Amazon accounts.</p>
+<p>The VirtueMart <em>Pay with Amazon</em> plugin is quick and easy to configure. Widgets ensure that a customer never leaves your site during the checkout process, ensuring a consistent brand experience.&nbsp;A complete tutorial is available to help you to&nbsp;<a href="http://docs.virtuemart.net/manual/shop-menu/payment-methods/pay-with-amazon.html" title="How to configure the Pay with Amazon VirtueMart plugin">configure the plugin</a>.</p>
+<p>If you have questions about the <em>Pay with Amazon</em>&nbsp;payment solution, please do not hesitate to contact <a href="https://payments.amazon.co.uk/contact?ld=SPDEAP_XIS_VM" title="Contact amazon payments about the Christmas promotion">Amazon Payments</a>.</p>
+<p>The VirtueMart <em>Pay with Amazon</em> plugin is available for VirtueMart Version 2.6.18 compatible with Joomla 2.5 and VirtueMart 3.0.8 compatible with Joomla 2.5 and Joomla 3.</p>
+<div>
+<p><a href="http://virtuemart.net/download">Download VirtueMart now and Test it</a></p>
+</div></div>";}i:1;O:8:"stdClass":3:{s:4:"link";s:98:"http://virtuemart.net/news/latest-news/470-release-vm3-0-8-2-secured-by-fortinet-s-fortiguard-labs";s:5:"title";s:56:"Release VM3.0.9, secured by Fortinet’s FortiGuard Labs";s:11:"description";s:3499:"<div><p>As we mentioned in the last news, VirtueMart is audited by different security companies. We are very happy that they found the persistent XSS attack before we released vm3.0.8, so the version vm3.0.8 already contains the fix.</p>
 <p>The vulnerability discovered by <a href="http://www.fortiguard.com/encyclopedia/vulnerability/#id=40479">Fortinet’sFortiGuard Labs</a> with CVE number “CVE-2015-3619” is a persistent XSS attack. Contrary to non-persistent XSS, this kind of attack can be executed with almost nil interaction by the admin. The problem exists due to the javascript tooltips, which automatically decode the DOM value. So in certain circumstances it was possible to use a double encode combination of first_name, last_name and company to create a working js, which gets activated if an admin hoovers over the combined name of the order. So our fix contains two parts. One part makes it impossible to store dangerous values, the other part escapes the tooltips to prevent problems with old orders.</p>
 <p>The fix in vm2admin.js is here <br /><a href="http://dev.virtuemart.net/projects/virtuemart/repository/diff/trunk/virtuemart/administrator/components/com_virtuemart/assets/js/vm2admin.js?utf8=%E2%9C%93&amp;rev=8828&amp;rev_to=8670">vm2admin.js rev=8828</a><br />In case you cannot update, just use the new vm2admin.js.</p>
 <p>The other fixes are more complex and in different files and just prevent the problem for the future.</p>
@@ -11,7 +20,7 @@
 <p>Meanwhile we created a new vm3.0.9, which is also suitable for productive use. But test your "add to cart" popup. Also, editing of orders could behave differently.</p>
 <p>Features:<br />- New Ordering "ordering, name", which sorts for ordering if available, then for name.<br />- If a product had more than one category and one was not publisehd it could happen that the selected category was the unpublished one. Is fixed.<br />- Order item edit now uses the same function as the create/update function, which allows to use the same triggers for manipulating storing of the data. <br />- "Give vendors switched in shoppers their rights", means a vendor switched into a shopper can still administrate the store.<br />- Klarna replaced serialize against json_encode<br />- Added the option to add js files inline (sometimes easier with ajax)<br />- Add to cart can now be stopped by another js using e.stopSendtocart == true<br />- Added test for the AIO to prevent blank page due to installion without proper VirtueMart core</p>
 <p><a href="http://dev.virtuemart.net/projects/virtuemart/files">http://dev.virtuemart.net/projects/virtuemart/files</a></p>
-<p>&nbsp;</p></div>";}i:1;O:8:"stdClass":3:{s:4:"link";s:67:"http://virtuemart.net/news/latest-news/469-security-release-vm3-0-8";s:5:"title";s:24:"Security release Vm3.0.8";s:11:"description";s:6534:"<div><p>Security release VM 3.0.8</p>
+<p>&nbsp;</p></div>";}i:2;O:8:"stdClass":3:{s:4:"link";s:67:"http://virtuemart.net/news/latest-news/469-security-release-vm3-0-8";s:5:"title";s:24:"Security release Vm3.0.8";s:11:"description";s:6534:"<div><p>Security release VM 3.0.8</p>
 <p>Finally after some interim versions, here is the release of VirtueMart 3.0.8.</p>
 <p>All fixes were already provided with VM 3.0.6. Additionally we released VM 3.0.6.2 to minimize problems due last security problem in PHP itself (<a href="https://github.com/80vul/phpcodz/blob/master/research/pch-020.md">https://github.com/80vul/phpcodz/blob/master/research/pch-020.md</a>).</p>
 <p>The other two vulnerabilities were minors (non-persistent XSS) and described here: <br /><a href="http://dev.virtuemart.net/projects/virtuemart/repository/revisions/8692/diff/trunk/virtuemart/administrator/components/com_virtuemart/helpers/vmpagination.php">.../8692/diff/trunk/virtuemart/administrator/components/com_virtuemart/helpers/vmpagination.php</a><br /><a href="http://dev.virtuemart.net/projects/virtuemart/repository/revisions/8692/diff/trunk/virtuemart/administrator/components/com_virtuemart/models/product.php">.../8692/diff/trunk/virtuemart/administrator/components/com_virtuemart/models/product.php</a>.</p>
@@ -37,7 +46,7 @@
 <li>added vRequest::vmSpecialChars without double encoding, the reason is that lang can be a command in php (thx to Kainhofer for hint and patch)</li>
 <li>and a lot more, you may investigate the repository yourself <a href="http://dev.virtuemart.net/projects/virtuemart/repository/show/trunk/virtuemart">dev.virtuemart.net/.../trunk/virtuemart </a></li>
 </ul>
-<p>Furthermore we released the new vm2.6.18, just minor bugfixes.&nbsp;</p></div>";}i:2;O:8:"stdClass":3:{s:4:"link";s:101:"http://virtuemart.net/news/latest-news/468-virtuemart-3-0-6-with-completely-redesigned-multi-variants";s:5:"title";s:60:"VirtueMart 3.0.6 with completely redesigned 'Multi Variants'";s:11:"description";s:3180:"<div><p>In VirtueMart 3.0.6 we fine tuned the completely redesigned <strong><em>Multi Variants</em></strong> which were introduced in our previous release. Let me give you a short introduction.</p>
+<p>Furthermore we released the new vm2.6.18, just minor bugfixes.&nbsp;</p></div>";}i:3;O:8:"stdClass":3:{s:4:"link";s:101:"http://virtuemart.net/news/latest-news/468-virtuemart-3-0-6-with-completely-redesigned-multi-variants";s:5:"title";s:60:"VirtueMart 3.0.6 with completely redesigned 'Multi Variants'";s:11:"description";s:3180:"<div><p>In VirtueMart 3.0.6 we fine tuned the completely redesigned <strong><em>Multi Variants</em></strong> which were introduced in our previous release. Let me give you a short introduction.</p>
 <p>One of the most advanced feature of an ecommerce store is the possibility to display different variants of one product in a clear structure. The typical example are the T-Shirt product variants. We have created a small example here: <a href="http://demo.virtuemart.net/default-products/vm-t-shirt-multi-variant-detail">http://demo.virtuemart.net/default-products/vm-t-shirt-multi-variant-detail</a>.</p>
 <p>Not all colours are available for any size and due to aesthetic reasons the "blue" imprints are not available for the "blue" coloured T-Shirt. Any drop-down combination points to a real product. The handling is easy as most important product attributes are accessible from the parent product (variant attributes, Sku, price). So you can easily configure more than 50 product variants in a single view, with different stock levels, price and images. If you select an already existing attribute like length, weight, etc, then you can change the value directly using the drop-down matrix in the parent product. You can also modify the display (for example rounding).</p>
 <p><img src="http://virtuemart.net/images/virtuemart/news/childvariantsmatrix.PNG" alt="Variant Matrix" title="Variant Matrix" class="caption" width="692" height="196" /></p>
@@ -47,7 +56,7 @@
 <div>
 <p><a href="http://virtuemart.net/download">DOWNLOAD VM3 NOW<br /> VirtueMart 3 component (core and AIO)</a></p>
 </div>
-<p>There is also a small update for vm2.6 series. There are also new keys for the sql joins to speed up your store. Also the new js handler got added for easier compatibility between vm2.6 andd vm3 extensions.</p></div>";}i:3;O:8:"stdClass":3:{s:4:"link";s:70:"http://virtuemart.net/news/latest-news/467-release-of-virtuemart-3-0-4";s:5:"title";s:27:"Release of VirtueMart 3.0.4";s:11:"description";s:2987:"<div><p>A bit earlier than expected, we have to release vm3.0.4 to close a vulnerability in the core. This is a real vulnerability, no exploit. The problem is a wrong error report setting, which can reveal the used server path for the real attack.</p>
+<p>There is also a small update for vm2.6 series. There are also new keys for the sql joins to speed up your store. Also the new js handler got added for easier compatibility between vm2.6 andd vm3 extensions.</p></div>";}i:4;O:8:"stdClass":3:{s:4:"link";s:70:"http://virtuemart.net/news/latest-news/467-release-of-virtuemart-3-0-4";s:5:"title";s:27:"Release of VirtueMart 3.0.4";s:11:"description";s:2987:"<div><p>A bit earlier than expected, we have to release vm3.0.4 to close a vulnerability in the core. This is a real vulnerability, no exploit. The problem is a wrong error report setting, which can reveal the used server path for the real attack.</p>
 <p>More and more people use php5.4 or php5.5, which has another default error handling and so they sometimes displayed Strict Errors (revealing the path). To prevent this, we added a function to disable the "Strict Standards" reporting for the "default" and "none" setting in Joomla. Unluckily, we left for a special debugging case the setting on enabled. So regardless the used configuration setting, you always got at least the "Simple" setting. Luckily it is not so easy to create warnings and errors in VirtueMart 3.</p>
 <p>In case you don't want to update, here is the manual fix:</p>
 <ol>
@@ -80,72 +89,4 @@
 <p>and some more.</p>
 <div>
 <p><a href="http://virtuemart.net/download">DOWNLOAD VM3 NOW<br /> VirtueMart 3 component (core and AIO)</a></p>
-</div></div>";}i:4;O:8:"stdClass":3:{s:4:"link";s:105:"http://virtuemart.net/news/latest-news/466-klik-pay-is-included-in-virtuemart-2-6-14-and-virtuemart-3-0-2";s:5:"title";s:68:"Klik &amp; Pay is included in VirtueMart 2.6.14 and VirtueMart 3.0.2";s:11:"description";s:4370:"<div><p>We are pleased to announce the release of VirtueMart 2.6.14 and VirtueMart 3.0.2.</p>
-<p><img src="http://virtuemart.net/images/klikandpay/klikandpay-logo.png" alt="Klik&amp;Pay included in VirtueMart" style="margin-left: 5px; margin-bottom: 5px; float: right;" />Klik &amp; Pay is a holistic secured payment solution accessible via PC, tablets and/or smartphone. Partners with many Banks and International acquirers, Klik &amp; Pay assists its merchants for 15 years, in France, Europe and all over the World. Klik &amp; Pay is:</p>
-<ul>
-	<li>A global solution not requiring a DSA</li>
-	<li>A competitive pricing, without monthly fees nor set-up fee</li>
-	<li>An anti-fraud scoring linked to an account with or without 3D Secure</li>
-	<li>A multi-lingual staff available by telephone and email</li>
-	<li>A consulting service to help you to develop your business and assist you at an International level</li>
-</ul>
-<p>Optimize your conversion rate:</p>
-<ul>
-	<li>Multi currencies cashing</li>
-	<li>Multi lingual payment pages</li>
-	<li>3DS and non 3 DS merchant account with trigger point</li>
-</ul>
-<p>Increase Sales:</p>
-<ul>
-	<li>Virtual Payment Terminal</li>
-	<li>Payment by email</li>
-	<li>Payment by SMS</li>
-</ul>
-<p>Secure your activity:</p>
-<ul>
-	<li>Anti-fraud scoring system</li>
-	<li>Transaction Management</li>
-	<li>Litigation support</li>
-</ul>
-<p>&nbsp;<a href="https://www.klikandpay.com/cgi-bin/inscription.pl?L=en">Open an account</a>&nbsp;or send us an email to <a href="mailto:market@klikandpay.com">market@klikandpay.com </a>
-</p>
-<p>If you already have a Klik &amp; Pay merchant account, you can directly set it up using our payment plugin Klik &amp; Pay provided in VirtueMart.</p>
-<p><img src="http://virtuemart.net/images/klikandpay/klikandpay-snapshot.png" alt="klikandpay screenshot" style="display: block; margin-left: auto; margin-right: auto;" />
-</p>
-<p>We worked a lot on the new Virtuemart 3.0.2 . The update should be easy. There will be a lot database changes, but they are many, but minor. It will increase the speed of your page noticeable. Bugs fixed:</p>
-<ul>
-	<li>increased consistency of the install.sql and reduced int size for better performance</li>
-	<li>extra attachment should now be sent to the shopper and not vendor as intended</li>
-	<li>added itemId to products</li>
-	<li>fixed "typo" in calculationh.php</li>
-	<li>vmJsApi the function addJScript is not anylonger overwriting the attribute "written" if exists already</li>
-	<li>set CacheTime to minutes</li>
-	<li>fixed javascript for tinyMce 4, removed the doubled // of the flag link</li>
-	<li>fixed typo in plugin.php</li>
-	<li>Better use of loading the xml parameter into the JForm (thx Kainhofer)</li>
-	<li>enhanced modals (thx Spyros)</li>
-	<li>sortSearchListQuery or products model uses getCurrentUser now to ensure that the correct id is set (Thank you Stan Scholtz)</li>
-	<li>removed a lot deprecated getSetError(s)</li>
-	<li>vmTable is not derived anylonger from JTable, derived functions added</li>
-	<li>optimised joomla tables for fullinstaller</li>
-	<li>Some more adjustments of VmTable for J3, using dummy interfaces</li>
-	<li>fixed spec file font problem, if no spec files there</li>
-	<li>users allowed to adminstrate shoppers can now also select shoppers in the cart</li>
-	<li>removed old comments, vmdebugs,...</li>
-	<li>changed all &lt;span class="product-field-display"&gt; to &lt;div class="product-field-display"&gt;</li>
-</ul>
-<div>
-	<p><a href="http://dev.virtuemart.net/attachments/download/887/com_virtuemart.3.0.2_extract_first.zip">DOWNLOAD VM3 NOW<br /> VirtueMart 3 component (core and AIO)</a>
-	</p>
-</div>
-<p>We still support vm2.6 and there is also no EOL set yet. But new features will be found in VM3. The update to vm2.6.14 should be very user friendly. Bugs fixed:</p>
-<ul>
-	<li>jQuery fix for automatically redirection to payment providers</li>
-	<li>PDF works with diskcache now, less problems with images in invoice</li>
-	<li>Authorize.net works now also with extra ST address</li>
-	<li>small fixes, enhancements, removed typos for different payments</li>
-</ul>
-<div>
-	<p><a href="http://dev.virtuemart.net/attachments/download/879/com_virtuemart.2.6.14_extract_first.zip">DOWNLOAD VM2.6.14<br /> VirtueMart 2 component (core and AIO)</a>
-	</p>
 </div></div>";}}}

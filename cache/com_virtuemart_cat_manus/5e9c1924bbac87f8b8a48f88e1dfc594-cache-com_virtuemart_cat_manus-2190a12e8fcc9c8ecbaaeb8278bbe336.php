@@ -1,0 +1,1 @@
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";a:2:{i:0;O:8:"stdClass":2:{s:7:"mf_name";s:19:"Arquitetura da Moda";s:26:"virtuemart_manufacturer_id";s:2:"12";}i:1;O:8:"stdClass":2:{s:7:"mf_name";s:6:"BadBoy";s:26:"virtuemart_manufacturer_id";s:2:"10";}}}
