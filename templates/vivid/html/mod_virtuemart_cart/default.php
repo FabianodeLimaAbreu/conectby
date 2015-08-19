@@ -82,8 +82,8 @@ defined('_JEXEC') or die('Restricted access');
 <?php } ?>
 <?php if ($data->totalProduct and $show_price) { ?><div class="show-both"><?php } ?>
 <div class="total_products">
-<?php if ($data->totalProduct>1) $data->totalProductTxt2 = '<div class="total-items"><strong>'.vmText::_('TPL_VMT_SHOPPING_CART_LABEL').'</strong><br>'.vmText::sprintf('TPL_VMT_ITEM_S', $data->totalProduct).'</div>';
-else if ($data->totalProduct == 1) $data->totalProductTxt2 = '<div class="total-items"><strong>'.vmText::_('TPL_VMT_SHOPPING_CART_LABEL').'</strong><br>'.vmText::_('TPL_VMT_ITEM').'</div>';
+<?php if ($data->totalProduct>1) $data->totalProductTxt2 = '<div class="total-items"><strong>'.vmText::_('CARRINHO').'</strong><br>'.vmText::sprintf('TPL_VMT_ITEM_S', $data->totalProduct).'</div>';
+else if ($data->totalProduct == 1) $data->totalProductTxt2 = '<div class="total-items"><strong>'.vmText::_('CARRINHO').'</strong><br>'.vmText::_('TPL_VMT_ITEM').'</div>';
 else $data->totalProductTxt2 = '<a href="#" class="cart-button"><div class="popover bottom"><div class="arrow"></div><div class="popover-content"><p>'.vmText::_('COM_VIRTUEMART_EMPTY_CART').'</p></div></div></a><div class="is-empty">'.vmText::_('COM_VIRTUEMART_EMPTY_CART').'</div>';
 echo $data->totalProductTxt2; ?>
 

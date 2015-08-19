@@ -256,9 +256,16 @@ if ($products_per_row > 1) {
 							<?php 
 								// $product->prices is not set when show_prices in config is unchecked
 								if ($show_price and  isset($product->prices)) {
-									echo '<div class="product-price">'.$currency->createPriceDiv ('salesPrice', '', $product->prices, FALSE, FALSE, 1.0, TRUE);
+									/*echo '<div class="product-price">'.$currency->createPriceDiv ('salesPrice', '', $product->prices, FALSE, FALSE, 1.0, TRUE);
 									if ($product->prices['salesPriceWithDiscount'] > 0) {
 										echo $currency->createPriceDiv ('salesPriceWithDiscount', '', $product->prices, FALSE, FALSE, 1.0, TRUE);
+									}*/
+									if ($product->prices['salesPriceWithDiscount'] > 0) {
+										echo '<div class="product-price">'.$currency->createPriceDiv ('salesPriceWithDiscount', '', $product->prices, FALSE, FALSE, 1.0, TRUE);
+										echo $currency->createPriceDiv ('salesPrice', '', $product->prices, FALSE, FALSE, 1.0, TRUE);
+									}
+									else{
+										echo '<div class="product-price">'.$currency->createPriceDiv ('salesPrice', '', $product->prices, FALSE, FALSE, 1.0, TRUE);
 									}
 									echo '</div>';
 								}?>

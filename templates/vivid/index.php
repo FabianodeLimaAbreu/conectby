@@ -1122,6 +1122,7 @@ tbody th, tbody td, .search-results dt.result-title{
 				<?php if($this->params->get('stumbleuponON') == true ) : ?><li><a href="<?php echo $this->params->get('stumbleupon'); ?>" title="stumbleupon" id="stumbleupon" target="_blank"><span><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/stumbleupon.png"></span></a></li><?php endif; ?>
 				<?php if($this->params->get('diggON') == true ) : ?><li><a href="<?php echo $this->params->get('digg'); ?>" title="digg" id="digg" target="_blank"><span><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/digg.png"></span></a></li><?php endif; ?>
 				<?php if($this->params->get('bloggerON') == true ) : ?><li><a href="<?php echo $this->params->get('blogger'); ?>" title="Blogger" id="blogger" target="_blank"><span><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/blogger.png"></span></a></li><?php endif; ?>
+					<li><a href="https://instagram.com/expressaoo_modas" title="Instagram" id="instagram" target="_blank"><span><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/ic_insta.png"></span></a></li>
 				</ul>
 				<?php endif; ?>
 				
